@@ -1,0 +1,215 @@
+{"bitches": {
+    "listOfBitches": [
+    	{ "id": "hilary", 
+	      "frontImg": "img/hilary-clinton.svg",
+	      "backImg": "img/hillary-back.svg"
+	  	},
+	  	{ "id": "rosa", 
+	      "frontImg": "img/rosa-parks.svg",
+	      "backImg": "img/rosa-back.svg"
+	  	},
+	  	{ "id": "rihanna", 
+	      "frontImg": "img/rihanna.svg",
+	      "backImg": "img/rihanna-back.svg"
+	  	},
+	  	{ "id": "sheryl", 
+	      "frontImg": "img/sheryl-sandberg.svg",
+	      "backImg": "img/sheryl-back.svg"
+	  	},
+	  	{ "id": "ruth", 
+	      "frontImg": "img/ruth-bader-ginsburg.svg",
+	      "backImg": "img/ruth-back.svg"
+	  	},
+	  	{ "id": "margaret", 
+	      "frontImg": "img/margaret-thatcher.svg",
+	      "backImg": "img/margaret-back.svg"
+	  	},
+	  	{ "id": "frida", 
+	      "frontImg": "img/frida-kahlo.svg",
+	      "backImg": "img/frida-back.svg"
+	  	},
+	  	{ "id": "beyonce", 
+	      "frontImg": "img/beyonce-knowles.svg",
+	      "backImg": "img/beyonce-back.svg"
+	  	},
+	  	{ "id": "malala", 
+	      "frontImg": "img/malala-yousafzai.svg",
+	      "backImg": "img/malala-back.svg"
+	  	},
+	  	{ "id": "diane", 
+	      "frontImg": "img/diane-vonfurstenberg.svg",
+	      "backImg": "img/diane-back.svg"
+	  	},
+	  	{ "id": "angelina", 
+	      "frontImg": "img/angelina-jolie.svg",
+	      "backImg": "img/angelina-back.svg"
+	  	},
+	  	{ "id": "anna", 
+	      "frontImg": "img/anna-wintour.svg",
+	      "backImg": "img/anna-back.svg"
+	  	},
+	  	{ "id": "patti", 
+	      "frontImg": "img/patti-smith.svg",
+	      "backImg": "img/patti-back.svg"
+	  	},
+	  	{ "id": "jessica", 
+	      "frontImg": "img/jessica-walsh.svg",
+	      "backImg": "img/jessica-back.svg"
+	  	},
+	  	{ "id": "emma", 
+	      "frontImg": "img/emma-watson.svg",
+	      "backImg": "img/emma-back.svg"
+	  	},
+	  	{ "id": "condoleezza", 
+	      "frontImg": "img/condoleezza-rice.svg",
+	      "backImg": "img/condoleezza-back.svg"
+	  	},
+	  	{ "id": "jennifer", 
+	      "frontImg": "img/jennifer-lawrence.svg",
+	      "backImg": "img/jennifer-back.svg"
+	  	},
+	  	{ "id": "gloria", 
+	      "frontImg": "img/gloria-steinem.svg",
+	      "backImg": "img/gloria-back.svg"
+	  	},
+	  	{ "id": "ellen", 
+	      "frontImg": "img/ellen-page.svg",
+	      "backImg": "img/ellen-page-back.svg"
+	  	},
+	  	{ "id": "joan", 
+	      "frontImg": "img/joan-didion.svg",
+	      "backImg": "img/joan-back.svg"
+	  	},
+	  	{ "id": "angela", 
+	      "frontImg": "img/angela-merkel.svg",
+	      "backImg": "img/angela-back.svg"
+	  	},
+	  	{ "id": "michelle", 
+	      "frontImg": "img/michelle-obama.svg",
+	      "backImg": "img/michelle-back.svg"
+	  	},
+	  	{ "id": "amal", 
+	      "frontImg": "img/amal-clooney.svg",
+	      "backImg": "img/amal-back.svg"
+	  	},
+	  	{ "id": "maya", 
+	      "frontImg": "img/maya-angelou.svg",
+	      "backImg": "img/maya-back.svg"
+	  	},
+	  	{ "id": "susan", 
+	      "frontImg": "img/susan-sontag.svg",
+	      "backImg": "img/susan-back.svg"
+	  	},
+	  	{ "id": "annie", 
+	      "frontImg": "img/annie-leibovitz.svg",
+	      "backImg": "img/annie-back.svg"
+	  	},
+	  	{ "id": "oprah", 
+	      "frontImg": "img/oprah-winfrey.svg",
+	      "backImg": "img/oprah-back.svg"
+	  	},
+	  	{ "id": "laverne", 
+	      "frontImg": "img/laverne-cox.svg",
+	      "backImg": "img/laverne-back.svg"
+	  	},
+	  	{ "id": "jk-rowling", 
+	      "frontImg": "img/jk-rowling.svg",
+	      "backImg": "img/jk-back.svg"
+	  	},
+	  	{ "id": "meryl", 
+	      "frontImg": "img/meryl-streep.svg",
+	      "backImg": "img/meryl-back.svg"
+	  	},
+	  	{ "id": "madonna", 
+	      "frontImg": "img/madonna.svg",
+	      "backImg": "img/madonna-back.svg"
+	  	},
+	  	{ "id": "simone", 
+	      "frontImg": "img/simone-veil.svg",
+	      "backImg": "img/simone-back.svg"
+	  	},
+	  	{ "id": "laura", 
+	      "frontImg": "img/laura-chinchilla.svg",
+	      "backImg": "img/laura-back.svg"
+	  	},
+	  	{ "id": "misty", 
+	      "frontImg": "img/misty-copeland.svg",
+	      "backImg": "img/misty-back.svg"
+	  	},
+	  	{ "id": "eleanore", 
+	      "frontImg": "img/eleanore-roosevelt.svg",
+	      "backImg": "img/eleanor-back.svg"
+	  	},
+	  	{ "id": "miuccia", 
+	      "frontImg": "img/miuccia-prada.svg",
+	      "backImg": "img/miuccia-back.svg"
+	  	},
+	  	{ "id": "grace", 
+	      "frontImg": "img/grace-hopper.svg",
+	      "backImg": "img/grace-back.svg"
+	  	},
+	  	{ "id": "alison", 
+	      "frontImg": "img/alison-bechdel.svg",
+	      "backImg": "img/alison-back.svg"
+	  	},
+	  	{ "id": "lena", 
+	      "frontImg": "img/lena-dunham.svg",
+	      "backImg": "img/lena-back.svg"
+	  	},
+	  	{ "id": "georgia", 
+	      "frontImg": "img/georgia-okeeffe.svg",
+	      "backImg": "img/georgia-back.svg"
+	  	},
+	  	{ "id": "yuri",
+	      "frontImg": "img/yuri-kochiyama.svg",
+	      "backImg": "img/yuri-back.svg"
+	  	},
+	  	{ "id": "aung", 
+	      "frontImg": "img/aung-saan-suu-kyi.svg",
+	      "backImg": "img/aung-back.svg"
+	  	},
+	  	{ "id": "bell", 
+	      "frontImg": "img/bell-hooks.svg",
+	      "backImg": "img/bell-back.svg"
+	  	},
+	  	{ "id": "chimamanda", 
+	      "frontImg": "img/chimamanda-ngozi-adiche.svg",
+	      "backImg": "img/chimamanda-back.svg"
+	  	},
+	  	{ "id": "leandra", 
+	      "frontImg": "img/leandra-medine.svg",
+	      "backImg": "img/leandra-back.svg"
+	  	},
+	  	{ "id": "louise", 
+	      "frontImg": "img/louise-bourgeois.svg",
+	      "backImg": "img/louise-bourgeois.svg"
+	  	},
+	  	{ "id": "queen-elizabeth", 
+	      "frontImg": "img/queen-elizabeth.svg",
+	      "backImg": "img/queen-elizabeth-back.svg"
+	  	},
+	  	{ "id": "indira", 
+	      "frontImg": "img/indira-gandhi.svg",
+	      "backImg": "img/indira-back.svg"
+	  	},
+	  	{ "id": "helen", 
+	      "frontImg": "img/helen-keller.svg",
+	      "backImg": "img/helen-back.svg"
+	  	},
+	  	{ "id": "zaha", 
+	      "frontImg": "img/zaha-hadid.svg",
+	      "backImg": "img/zaha-back.svg"
+	  	},
+	  	{ "id": "ellen", 
+	      "frontImg": "img/ellen-degeneres.svg",
+	      "backImg": "img/ellen-back.svg"
+	  	},
+	  	{ "id": "jackie", 
+	      "frontImg": "img/jackie-kennedy.svg",
+	      "backImg": "img/jackie-back.svg"
+	  	}
+
+
+    ]
+  }
+}

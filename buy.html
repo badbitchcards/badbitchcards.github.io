@@ -55,11 +55,11 @@
           <div class="col-xs-12 col-sm-6 col-md-4">
             <img src="img/cards.svg" height="340px" />
             <div class="form-container">
-              <form>
+              <form action="https://formspree.io/badcards@gmail.com" method="POST">
                 Name<br>
                 <input type="text" name="firstname"><br>
                 Email<br>
-                <input type="text" name="lastname"><br>
+                <input type="text" name="email"><br>
                 How many packs do you want?<br>
                 <select name="howmany">
                   <option value="1">1</option>
@@ -68,7 +68,7 @@
                   <option value="4">4</option>
                   <option value="5">5</option>
                 </select>
-                <button class="submit-btn" style="margin-bottom: 50px;">Submit</button>
+                <button class="submit-btn" value="Send" type="submit" style="margin-bottom: 50px;">Submit</button>
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
 
   </body>
 </html>

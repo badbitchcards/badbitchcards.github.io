@@ -74,6 +74,272 @@
                   <option value="10">10</option>
                 </select>
                 <button class="submit-btn" value="Send" type="submit" style="margin-bottom: 50px;">Submit</button>
+
+                <div id='product-component-502ae3c5b93'></div>
+                  <script type="text/javascript">
+                  /*<![CDATA[*/
+
+                  (function () {
+                    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                    if (window.ShopifyBuy) {
+                      if (window.ShopifyBuy.UI) {
+                        ShopifyBuyInit();
+                      } else {
+                        loadScript();
+                      }
+                    } else {
+                      loadScript();
+                    }
+
+                    function loadScript() {
+                      var script = document.createElement('script');
+                      script.async = true;
+                      script.src = scriptURL;
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                      script.onload = ShopifyBuyInit;
+                    }
+
+                    function ShopifyBuyInit() {
+                      var client = ShopifyBuy.buildClient({
+                        domain: 'bad-bitch-cards.myshopify.com',
+                        apiKey: '2949e127dd1947357c1cb715d2acce85',
+                        appId: '6',
+                      });
+
+                      ShopifyBuy.UI.onReady(client).then(function (ui) {
+                        ui.createComponent('product', {
+                          id: [8946862534],
+                          node: document.getElementById('product-component-502ae3c5b93'),
+                          moneyFormat: '%24%7B%7Bamount%7D%7D',
+                          options: {
+                    "product": {
+                      "buttonDestination": "checkout",
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "img": false,
+                        "title": false,
+                        "variantTitle": false,
+                        "price": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "text": {
+                        "button": "BUY NOW"
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          "color": "#fae5e5",
+                          "font-family": "Karla, sans-serif",
+                          "font-size": "14px",
+                          "padding-top": "15px",
+                          "padding-bottom": "15px",
+                          ":hover": {
+                            "background-color": "#000000",
+                            "color": "#fae5e5"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          },
+                          "font-weight": "bold"
+                        },
+                        "variantTitle": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "title": {
+                          "font-family": "Karla, sans-serif",
+                          "font-size": "26px"
+                        },
+                        "description": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "price": {
+                          "font-family": "Karla, sans-serif",
+                          "font-size": "18px",
+                          "font-weight": "normal"
+                        },
+                        "quantityInput": {
+                          "font-size": "14px",
+                          "padding-top": "15px",
+                          "padding-bottom": "15px"
+                        },
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "15px",
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        }
+                      },
+                      "googleFonts": [
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla"
+                      ]
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          "color": "#fae5e5",
+                          "font-family": "Karla, sans-serif",
+                          "font-size": "14px",
+                          "padding-top": "15px",
+                          "padding-bottom": "15px",
+                          ":hover": {
+                            "background-color": "#000000",
+                            "color": "#fae5e5"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          },
+                          "font-weight": "bold"
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      },
+                      "googleFonts": [
+                        "Karla"
+                      ]
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "variantTitle": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          "color": "#fae5e5",
+                          "font-family": "Karla, sans-serif",
+                          "font-size": "14px",
+                          "padding-top": "15px",
+                          "padding-bottom": "15px",
+                          ":hover": {
+                            "background-color": "#000000",
+                            "color": "#fae5e5"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          },
+                          "font-weight": "bold"
+                        },
+                        "variantTitle": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "title": {
+                          "font-family": "Karla, sans-serif"
+                        },
+                        "description": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "price": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "quantityInput": {
+                          "font-size": "14px",
+                          "padding-top": "15px",
+                          "padding-bottom": "15px"
+                        },
+                        "compareAt": {
+                          "font-family": "Karla, sans-serif",
+                          "font-weight": "normal"
+                        },
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        }
+                      },
+                      "googleFonts": [
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla",
+                        "Karla"
+                      ]
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "font-family": "Karla, sans-serif",
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          },
+                          "font-weight": "bold"
+                        },
+                        "count": {
+                          "font-size": "14px",
+                          "color": "#fae5e5",
+                          ":hover": {
+                            "color": "#fae5e5"
+                          }
+                        },
+                        "iconPath": {
+                          "fill": "#fae5e5"
+                        }
+                      },
+                      "googleFonts": [
+                        "Karla"
+                      ]
+                    },
+                    "option": {
+                      "styles": {
+                        "label": {
+                          "font-family": "Karla, sans-serif"
+                        },
+                        "select": {
+                          "font-family": "Karla, sans-serif"
+                        }
+                      },
+                      "googleFonts": [
+                        "Karla",
+                        "Karla"
+                      ]
+                    },
+                    "productSet": {
+                      "styles": {
+                        "products": {
+                          "@media (min-width: 601px)": {
+                            "margin-left": "-20px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                        });
+                      });
+                    }
+                  })();
+                  /*]]>*/
+                  </script>
               </form>
             </div>
           </div>
